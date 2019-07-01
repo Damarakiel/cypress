@@ -1,16 +1,16 @@
 describe('City Break - city to city', () => {
-
+    
     beforeEach(() => {
         cy.server()
         cy.viewport('iphone-6')
     })
 
-    it('Visits POZ - BCN city break landing page', () => {
-        cy.visit(Cypress.config('baseUrl')+'/ci-poz/ci-bcn')
+    it('Visits KTW - BCN city break landing page', () => {
+        cy.visit(Cypress.config('baseUrl')+'/ci-ktw/ci-bcn')
     })
 
     it('Verifies heading', () => {
-        cy.get('div h1').contains('Barcelona City Break - Wylot z Poznania')
+        cy.get('div h1').contains('Barcelona City Break - Wylot z Katowic')
     })
 
     it('Verifies offers available', () => {
@@ -27,5 +27,4 @@ describe('City Break - city to city', () => {
         cy.get('li:nth-child(1) a[data-qa-offer]').click()
         cy.get('package-selected', {timeout: 30000}).should('exist')
     })
-    
 })
