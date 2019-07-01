@@ -7,7 +7,6 @@ jobs:
       - image: 'cypress/base:10'
         environment:
           TERM: xterm
-    parallelism: 2
     steps:
       - checkout
       - run: pwd
@@ -29,6 +28,7 @@ jobs:
             - .cache
             - tmp
   test:
+    parallelism: 2
     working_directory: ~/tmp
     docker:
       - image: 'cypress/base:10'
