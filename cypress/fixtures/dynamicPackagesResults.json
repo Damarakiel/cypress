@@ -1,0 +1,592 @@
+{
+    "data": {
+      "dynamicPackages": {
+        "token": "46d8c57f-699f-4635-b55b-1783d1b55162",
+        "items": [
+          {
+            "hotel": {
+              "details": {
+                "name": "Aparthotel Atenea Barcelona",
+                "category": 4,
+                "type": "APART_HOTEL",
+                "typeName": "Aparthotel",
+                "imageSrc": "https://i.travelapi.com/hotels/1000000/530000/521300/521210/8ecb4a41_b.jpg",
+                "tripAdvisorRating": {
+                  "score": 4,
+                  "opinions": 735,
+                  "__typename": "TripAdvisorRating"
+                },
+                "distance": {
+                  "value": 5374,
+                  "unit": "m",
+                  "formatted": "5.4 km",
+                  "__typename": "Distance"
+                },
+                "__typename": "HotelDetails"
+              },
+              "location": {
+                "cityCode": "BCN",
+                "cityName": "Barcelona",
+                "countryCode": "ES",
+                "countryName": "Hiszpania",
+                "coordinates": {
+                  "latitude": 41.38637,
+                  "longitude": 2.12946,
+                  "__typename": "GeoPosition"
+                },
+                "address": "Joan Guell 207-211, Barcelona 08028",
+                "postalCode": "08028",
+                "street": "Joan Guell 207-211",
+                "__typename": "HotelLocation"
+              },
+              "metaCode": 113437,
+              "hotelCode": 2871516,
+              "mealPlan": {
+                "name": "Bez wyżywienia",
+                "type": "NONE",
+                "__typename": "MealPlan"
+              },
+              "__typename": "DynamicPackageHotelItem"
+            },
+            "duration": 3,
+            "price": {
+              "amount": 761,
+              "currency": "PLN",
+              "format": "761 PLN",
+              "__typename": "Price"
+            },
+            "__typename": "DynamicPackageItem"
+        }
+        ],
+        "selectedPackage": {
+          "hotel": {
+            "details": {
+              "name": "Sallés Hotel Pere IV",
+              "category": 4,
+              "type": "HOTEL",
+              "typeName": "Hotel",
+              "imageSrc": "https://i.travelapi.com/hotels/1000000/910000/904500/904455/24019c6d_b.jpg",
+              "tripAdvisorRating": {
+                "score": 4,
+                "opinions": 248,
+                "__typename": "TripAdvisorRating"
+              },
+              "distance": {
+                "value": 0,
+                "unit": "m",
+                "formatted": "0.0 m",
+                "__typename": "Distance"
+              },
+              "__typename": "HotelDetails"
+            },
+            "location": {
+              "cityCode": "BCN",
+              "cityName": "Barcelona",
+              "countryCode": "ES",
+              "countryName": "Hiszpania",
+              "coordinates": {
+                "latitude": 41.39695,
+                "longitude": 2.19229,
+                "__typename": "GeoPosition"
+              },
+              "address": "C/Pallars,128 , Barcelona 08018",
+              "postalCode": "08018",
+              "street": "C/Pallars,128 ",
+              "__typename": "HotelLocation"
+            },
+            "metaCode": 113921,
+            "hotelCode": 2868306,
+            "mealPlan": {
+              "name": "Bez wyżywienia",
+              "type": "NONE",
+              "__typename": "MealPlan"
+            },
+            "__typename": "DynamicPackageHotelItem"
+          },
+          "duration": 3,
+          "price": {
+            "amount": 1509,
+            "currency": "PLN",
+            "format": "1 509 PLN",
+            "__typename": "Price"
+          },
+          "__typename": "DynamicPackageItem"
+        },
+        "count": 631,
+        "totalCount": 631,
+        "filters": [
+          {
+            "type": "STAR_RATINGS",
+            "options": [
+              {
+                "name": null,
+                "value": "5",
+                "count": 31,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "4",
+                "count": 189,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "3",
+                "count": 121,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "2",
+                "count": 30,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "1",
+                "count": 10,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "0",
+                "count": 250,
+                "__typename": "DynamicFilterValue"
+              }
+            ],
+            "__typename": "DynamicFilter"
+          },
+          {
+            "type": "GUEST_RATINGS",
+            "options": [
+              {
+                "name": null,
+                "value": "5",
+                "count": 19,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "4.5",
+                "count": 145,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "4",
+                "count": 184,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "3.5",
+                "count": 81,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": null,
+                "value": "3",
+                "count": 23,
+                "__typename": "DynamicFilterValue"
+              }
+            ],
+            "__typename": "DynamicFilter"
+          },
+          {
+            "type": "PROPERTY_TYPE",
+            "options": [
+              {
+                "name": "Hotel",
+                "value": "Hotel",
+                "count": 361,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Apartament",
+                "value": "Suite",
+                "count": 151,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Aparthotel",
+                "value": "ApartHotel",
+                "count": 24,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pensjonat",
+                "value": "GuestHouse",
+                "count": 56,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Hostel",
+                "value": "Hostel",
+                "count": 25,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pensjonat B&B",
+                "value": "BedAndBreakfest",
+                "count": 12,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Kwatera prywatna",
+                "value": "HomeStay",
+                "count": 1,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Kemping",
+                "value": "Campsite",
+                "count": 1,
+                "__typename": "DynamicFilterValue"
+              }
+            ],
+            "__typename": "DynamicFilter"
+          },
+          {
+            "type": "MEAL_PLANS",
+            "options": [
+              {
+                "name": "Bez wyżywienia",
+                "value": "None",
+                "count": 626,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Śniadanie",
+                "value": "Breakfast",
+                "count": 273,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Śniadanie i obiadokolacja",
+                "value": "HalfBoard",
+                "count": 65,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "3 posiłki",
+                "value": "FullBoard",
+                "count": 59,
+                "__typename": "DynamicFilterValue"
+              }
+            ],
+            "__typename": "DynamicFilter"
+          },
+          {
+            "type": "AMENITIES",
+            "options": [
+              {
+                "name": "Lounge/Bar hotelowy",
+                "value": "1",
+                "count": 338,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Basen",
+                "value": "2",
+                "count": 184,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Dozwolone zwierzęta domowe",
+                "value": "3",
+                "count": 464,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Express Checkout",
+                "value": "4",
+                "count": 182,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Fitness",
+                "value": "5",
+                "count": 159,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Kasyno",
+                "value": "6",
+                "count": 1,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Kącik prasowy",
+                "value": "7",
+                "count": 139,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Kort tenisowy",
+                "value": "8",
+                "count": 5,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Kuchnia",
+                "value": "9",
+                "count": 215,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Opieka nad dziećmi",
+                "value": "10",
+                "count": 75,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Parking",
+                "value": "11",
+                "count": 439,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pokoje dla niepalących",
+                "value": "12",
+                "count": 522,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pokoje dla palących",
+                "value": "13",
+                "count": 208,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pralni",
+                "value": "14",
+                "count": 431,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Przystosowane do wózka inwalidzkiego",
+                "value": "15",
+                "count": 350,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Restauracja",
+                "value": "16",
+                "count": 269,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Sala konferencyjna / Centrum konferencyjne",
+                "value": "17",
+                "count": 217,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Sauna",
+                "value": "18",
+                "count": 84,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Serwis bagażowy",
+                "value": "19",
+                "count": 168,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Siłownia",
+                "value": "20",
+                "count": 154,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Spa & Wellness",
+                "value": "21",
+                "count": 34,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Transfer z/na lotnisko/dworzec",
+                "value": "22",
+                "count": 242,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Całodobowa recepcja",
+                "value": "23",
+                "count": 482,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Fax/Ksero",
+                "value": "24",
+                "count": 371,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Salon piękności",
+                "value": "25",
+                "count": 10,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Wypożyczalnia samochodów/Taxi",
+                "value": "26",
+                "count": 258,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Przechowalnia bagażu",
+                "value": "28",
+                "count": 440,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Jacuzzi",
+                "value": "30",
+                "count": 24,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pole golfowe",
+                "value": "31",
+                "count": 13,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Bezprzewodowy internet w pokoju",
+                "value": "32",
+                "count": 324,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Biurko",
+                "value": "33",
+                "count": 1,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Klimatyzacja",
+                "value": "34",
+                "count": 6,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Łazienka",
+                "value": "35",
+                "count": 279,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Minibar",
+                "value": "36",
+                "count": 303,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Sejf pokojowy",
+                "value": "37",
+                "count": 516,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Suszarka",
+                "value": "38",
+                "count": 574,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Telewizja kablowa",
+                "value": "39",
+                "count": 459,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Telewizja kablowa płatna",
+                "value": "40",
+                "count": 11,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pobudka/Budzik",
+                "value": "42",
+                "count": 138,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Łóżeczko niemowlęce",
+                "value": "43",
+                "count": 7,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Lodówka",
+                "value": "44",
+                "count": 140,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Dostęp do internetu",
+                "value": "47",
+                "count": 622,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "TV",
+                "value": "48",
+                "count": 213,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Suszarka",
+                "value": "49",
+                "count": 8,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Bezpośrednio przy plaży",
+                "value": "50",
+                "count": 10,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Hotel klubowy / klub dyskoteka",
+                "value": "54",
+                "count": 5,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Animacje",
+                "value": "55",
+                "count": 5,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Klimatyzacja",
+                "value": "56",
+                "count": 601,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pokoje ze śniadaniem w cenie",
+                "value": "57",
+                "count": 386,
+                "__typename": "DynamicFilterValue"
+              },
+              {
+                "name": "Pokoje rodzinne",
+                "value": "58",
+                "count": 332,
+                "__typename": "DynamicFilterValue"
+              }
+            ],
+            "__typename": "DynamicFilter"
+          }
+        ],
+        "pages": 22,
+        "currentPage": 1,
+        "__typename": "DynamicPackageResults"
+      }
+    }
+  }
