@@ -40,7 +40,7 @@ jobs:
       - run: ls -la cypress/integration
       - run:
           name: Running cypress tests
-          command: $(npm bin)/cypress run
+          command: $(npm bin)/cypress run --env configFile=pro
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:

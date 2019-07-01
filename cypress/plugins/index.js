@@ -36,15 +36,15 @@ module.exports = (on, config) => {
   on('file:preprocessor', wp(options))
 
   // Code responsible for handling environment json
-  // const enviroment = config.env.configFile;
-  // const configForEnviroment = getConfigurationByFile(enviroment);
+  const enviroment = config.env.configFile;
+  const configForEnviroment = getConfigurationByFile(enviroment);
 
-  // return (configForEnviroment)
-  //     ? configForEnviroment
-  //     : config;
+  return (configForEnviroment)
+      ? configForEnviroment
+      : config;
 }
 
-// function getConfigurationByFile (file) {
-//   const pathToConfigFile = `cypress/config/${file}.json`;
-//   return fs.readJson(path.join(__dirname, '../../', pathToConfigFile))
-// }
+function getConfigurationByFile (file) {
+  const pathToConfigFile = `cypress/config/${file}.json`;
+  return fs.readJson(path.join(__dirname, '../../', pathToConfigFile))
+}
