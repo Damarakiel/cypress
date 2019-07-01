@@ -2,7 +2,7 @@ version: 2
 
 jobs:
   build:
-    working_directory: ~/tmp
+    working_directory: ~/
     docker:
       - image: 'cypress/base:10'
         environment:
@@ -26,9 +26,8 @@ jobs:
           root: ~/
           paths:
             - .cache
-            - tmp
   test:
-    working_directory: ~/tmp
+    working_directory: ~/
     docker:
       - image: 'cypress/base:10'
         environment:
