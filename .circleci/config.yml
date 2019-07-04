@@ -28,7 +28,7 @@ jobs:
             - .cache
             - tmp
   test:
-    parallelism: 2
+    parallelism: 4
     working_directory: ~/tmp
     docker:
       - image: 'cypress/base:10'
