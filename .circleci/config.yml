@@ -41,7 +41,7 @@ jobs:
       - run: ls -la cypress/integration
       - run:
           name: Running cypress tests
-          command: $(npm bin)/cypress run --env configFile=pro --record false --key fa8d5a87-24ea-4a09-bd5a-c74224309c90
+          command: $(npm bin)/cypress run --env configFile=pro --record --key fa8d5a87-24ea-4a09-bd5a-c74224309c90
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:

@@ -2,6 +2,7 @@ describe('City Break - city to city with offers', () => {
     
     beforeEach(() => {
         cy.server()
+        cy.debug()
         cy.viewport('iphone-6')
     })
 
@@ -14,7 +15,7 @@ describe('City Break - city to city with offers', () => {
     })
 
     it('Verifies offers available', () => {
-        cy.get('a[data-qa-offer]').should('exist')
+        cy.debug().get('a[data-qa-offer]').should('exist')
     })
 
     it('Verifies more offers button exists', () => {
