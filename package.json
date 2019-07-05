@@ -5,8 +5,8 @@
   "scripts": {
     "cypress:open:pro": "cypress open --env configFile=pro",
     "cypress:open:staging": "cypress open --env configFile=staging",
-    "cypress:run:pro": "cypress run --env configFile=pro --record --key fa8d5a87-24ea-4a09-bd5a-c74224309c90",
-    "cypress:run:staging": "cypress run --env configFile=staging --record --key fa8d5a87-24ea-4a09-bd5a-c74224309c90"
+    "cypress:run:pro": "cypress run --env configFile=pro --record --key 9ce5c3b4-77c3-4df8-a846-b34e2a3655c1",
+    "cypress:run:staging": "cypress run --env configFile=staging --record --key 9ce5c3b4-77c3-4df8-a846-b34e2a3655c1"
   },
   "dependencies": {
     "@cypress/webpack-preprocessor": "^4.1.0",
